@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+}
+
+.box {
+    width: 12px;
+    height: 12px;
+    background-color: rgb(237, 133, 5);
+}
+
+header {
+    text-align: center;
+    font-size: 2rem;
+    background-color: aquamarine;
+}
+
+.span {
+    width: 4em;
+    height: 2.5em;
+    margin-right: 1em;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+}
+
+main {
+    padding: 3em;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.submit {
+    width: 5em;
+    height: 2em;
+    margin-left: 1em;
+}
+
+.footer{
+    display: flex;
+}
+
+.relod {
+    display: inline;
+    width: 4em;
+    height: 3em;
+    margin: 1em;
+}
+.reset{
+    display: inline;
+    width: 4em;
+    height: 3em;
+    margin: 1em;
+}

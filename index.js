@@ -10,7 +10,7 @@ blue = document.querySelector(".blue");
 white = document.querySelector(".white");
 black = document.querySelector(".black");
 let boxes, amount, relod;
-let color = 'orange';
+let color = 'red';
 let spans = document.querySelectorAll(".span")
 
 
